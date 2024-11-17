@@ -1,0 +1,54 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+.calculator {
+  width: 500px;
+  height: 400px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+}
+#retry {
+  display: none;
+}
+.calculator > h1 {
+  color: black;
+  font-size: 30px;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+.calculator > h2 {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  text-align: center;
+}
+#birthdate {
+  align-items: center;
+  height: 35px;
+  letter-spacing: 1px;
+  width: 200px;
+  padding-left: 10px;
+  font-family: "Times New Roman", Times, serif;
+  border: 1.5px solid black;
+}
+button {
+  height: 40px;
+  padding: 10px 20px;
+  background-color: blue;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  color: aliceblue;
+  font-weight: bold;
+  font-size: 14px;
+  border-radius: 10px;
+}
